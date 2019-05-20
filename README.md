@@ -130,5 +130,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@Autoplectic](https://github.com/Autoplectic/)
 * [@volpatto](https://github.com/volpatto/)
 
