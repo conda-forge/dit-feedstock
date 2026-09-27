@@ -1,16 +1,16 @@
 {% set name = "dit" %}
-{% set version = "1.2.3" %}
+{% set version = "2.3" %}
 
 package:
   name: "{{ name|lower }}"
   version: "{{ version }}"
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9c34048e2c61a9866ce766c07238f50983c174cf332479c99fb91187af232f68
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 3cd12221de65ead9decadf1107d4b9b534cadf936cfc2e2293cfacc5ce99f56b
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
